@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 70%;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+.imageCenter {
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+}
+
+.centerText {
+    text-align: center;
+}
