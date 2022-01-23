@@ -21,9 +21,11 @@
 }
 
 nav {
+    margin: 10px 0;
     width: 100%;
     display: grid;
-    grid-template-columns: minmax(300px, 20%) auto minmax(300px, 20%);
+    /* grid-template-columns: minmax(300px, 20%) auto minmax(300px, 20%); */
+    grid-template-columns: auto 20% 5% 20% auto;
 }
 
 nav a {
@@ -31,6 +33,6 @@ nav a {
     text-align: center;
     border: 1px solid black;
     padding: 20px 0;
-    transition: background-color .2s, color .2s;
     text-decoration: none;
+    border-radius: 40px;
 }
