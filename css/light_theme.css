@@ -1,7 +1,8 @@
 :root {
-    --main-bg-color: #121212;
-    --main-color: #e7e7e7;
-    --nav-link-bg-color: #00B8F5;
+
+    --main-bg-color: #ffffff;
+    --main-color: #121212;
+    --nav-link-bg-color: rgb(139, 70, 148);
 }
 
 body {
