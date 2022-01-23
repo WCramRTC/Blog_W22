@@ -10,6 +10,16 @@
     margin: 0 auto;
 }
 
+.mainContainer {
+    display: grid;
+    grid-template-columns: 10% 60% 20% 10%;
+}
+
+.blogPost {
+    grid-column: 2 / span 1;
+    border: 1px solid red;
+}
+
 .imageCenter {
     width: 20%;
     margin: 0 auto;
