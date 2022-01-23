@@ -1,13 +1,37 @@
+<<<<<<< Updated upstream
+=======
+:root {
+    --main-bg-color: #2c182a;
+    --main-color: #f3f3f3;
+    --nav-background: rgb(65, 29, 90);
+    --nav-link-bg-color: #00B8F5;
+    --blog-bg-color: #140213;
+    --blog-box-shadow: #0e0404;
+    --box-shadow: -4px 4px 5px var(--blog-box-shadow);
+}
+
+>>>>>>> Stashed changes
 body {
     color: #e7e7e7;
     background-color: #121212;
 }
 
+/* Navigation */
+
+nav {
+    background-color: var(--nav-background) ;
+}
+
 nav a {
+<<<<<<< Updated upstream
     color: #121212;
     background-color: #00B8F5;
     transition: background-color .2s, color .2s;
     border: 10px solid #00B8F5;
+=======
+    color: var(--main-color);
+    transition: background-color .2s, color .2s;
+>>>>>>> Stashed changes
 }
 
 nav a:hover {
@@ -16,7 +40,13 @@ nav a:hover {
 }
 
 #blogPost li {
+<<<<<<< Updated upstream
     border: 3px solid #e7e7e7;
+=======
+    background-color: var(--blog-bg-color);
+    border: 3px solid var(--main-color);
+    box-shadow: var(--box-shadow);
+>>>>>>> Stashed changes
 }
 
 #blogPost li div a {
@@ -26,8 +56,14 @@ nav a:hover {
 /* Sidebar */
 
 #sidebar {
+<<<<<<< Updated upstream
     border: 1px solid #e7e7e7;
 
+=======
+    background-color: var(--blog-bg-color);
+    border: 1px solid var(--main-color);
+    box-shadow: var(--box-shadow);
+>>>>>>> Stashed changes
 }
 
 #sidebar > p {
