@@ -1,13 +1,21 @@
 :root {
 
-    --main-bg-color: #ffffff;
+    --main-bg-color: #f7f4f4;
     --main-color: #121212;
-    --nav-link-bg-color: rgb(139, 70, 148);
+    --nav-link-bg-color: rgb(0, 0, 0);
+    --nav-background: rgb(0, 0, 0);
+    --blog-bg-color: #f7f4f4;
+    --blog-box-shadow: #272727;
+    --box-shadow: -4px 4px 5px var(--blog-box-shadow);
 }
 
 body {
     color: var(--main-color);
     background-color: var(--main-bg-color);
+}
+
+nav {
+    background-color: var(--nav-background) ;
 }
 
 nav a {
@@ -23,7 +31,9 @@ nav a:hover {
 }
 
 #blogPost li {
+    background-color: var( --blog-bg-color);
     border: 3px solid var(--main-color);
+    box-shadow: var(--box-shadow);
 }
 
 #blogPost li div a {
@@ -33,7 +43,9 @@ nav a:hover {
 /* Sidebar */
 
 #sidebar {
+    background-color: var( --blog-bg-color);
     border: 1px solid var(--main-color);
+    box-shadow: var(--box-shadow);
 
 }
 
